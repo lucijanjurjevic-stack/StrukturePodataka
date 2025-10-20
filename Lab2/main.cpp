@@ -25,19 +25,19 @@ int main() {
     char searchLastName[MAX_LENGTH];
     char deleteLastName[MAX_LENGTH];
 
-    // Dodavanje osoba na poèetak
+    //Dodavanje osoba na poèetak
     printf("Dodajte osobe na pocetak:\n");
     head = addAtBeginning(head);
     head = addAtBeginning(head);
 
-    // Dodavanje osobe na kraj
+    //Dodavanje osobe na kraj
     printf("\nDodajte osobu na kraj:\n");
     head = addAtEnd(head);
 
-    // Traženje osobe po prezimenu
+    //Trazenje osobe po prezimenu
     printf("\nUnesite prezime za pretragu: ");
     fgets(searchLastName, MAX_LENGTH, stdin);
-    searchLastName[strcspn(searchLastName, "\n")] = '\0';  // makni \n
+    searchLastName[strcspn(searchLastName, "\n")] = '\0'; 
 
     Person* found = findByLastName(head, searchLastName);
     if (found)
@@ -45,18 +45,18 @@ int main() {
     else
         printf("Osoba s prezimenom '%s' nije pronadena.\n", searchLastName);
 
-    // Brisanje po prezimenu
+    //Brisanje po prezimenu
     printf("\nUnesite prezime osobe za brisanje: ");
     fgets(deleteLastName, MAX_LENGTH, stdin);
     deleteLastName[strcspn(deleteLastName, "\n")] = '\0';
 
     head = deleteByLastName(head, deleteLastName);
 
-    // Ispis liste
+    //Ispis liste
     printf("\nTrenutna lista:\n");
     printList(head);
 
-    // Oslobaðanje memorije
+    //Oslobadanje memorije
     while (head != NULL) {
         temp = head;
         head = head->next;
@@ -66,8 +66,7 @@ int main() {
     return 0;
 }
 
-// ---------------- FUNKCIJE ----------------
-
+// funkcija ja kreaciju osobe
 Person* createPerson() {
     Person* result = (Person*)malloc(sizeof(Person));
     if (!result) {
@@ -85,12 +84,13 @@ Person* createPerson() {
 
     printf("Unesite godinu rodenja: ");
     scanf("%d", &result->birthYear);
-    getchar(); // oèisti '\n' iz buffera
+    getchar(); 
 
     result->next = NULL;
     return result;
 }
 
+//funckija za dodavanje osoba na pocetak liste
 Person* addAtBeginning(Person* head) {
     Person* newPerson = createPerson();
     if (!newPerson)
@@ -100,6 +100,7 @@ Person* addAtBeginning(Person* head) {
     return newPerson;
 }
 
+//funckija za dodavanje osoba na kraj liste
 Person* addAtEnd(Person* head) {
     Person* newPerson = createPerson();
     if (!newPerson)
@@ -116,6 +117,7 @@ Person* addAtEnd(Person* head) {
     return head;
 }
 
+//funckija za trazenje osobe u listi po prezimenu
 Person* findByLastName(Person* head, char* lastName) {
     Person* temp = head;
     while (temp != NULL) {
@@ -126,6 +128,7 @@ Person* findByLastName(Person* head, char* lastName) {
     return NULL;
 }
 
+//funckija za brisanje osobe iz liste po prezimenu
 Person* deleteByLastName(Person* head, char* lastName) {
     if (head == NULL)
         return NULL;
@@ -144,7 +147,7 @@ Person* deleteByLastName(Person* head, char* lastName) {
     }
 
     if (prev == NULL)
-        head = temp->next;  // brišemo prvi element
+        head = temp->next; 
     else
         prev->next = temp->next;
 
@@ -153,6 +156,7 @@ Person* deleteByLastName(Person* head, char* lastName) {
     return head;
 }
 
+//funckija za printanje liste
 void printList(Person* head) {
     if (head == NULL) {
         printf("Lista je prazna.\n");
