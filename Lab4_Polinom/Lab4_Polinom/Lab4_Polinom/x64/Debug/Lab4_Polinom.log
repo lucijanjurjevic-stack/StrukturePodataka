@@ -1,0 +1,4 @@
+﻿Lab4_Polinom.obj : error LNK2019: unresolved external symbol "void __cdecl readPolyFromFile(char const *,struct Polinom *)" (?readPolyFromFile@@YAXPEBDPEAUPolinom@@@Z) referenced in function main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl readPolyFromFile(char *,struct Polinom *)" (?readPolyFromFile@@YAXPEADPEAUPolinom@@@Z)
+C:\Users\Lucijan\Desktop\StrukturePodataka\Lab4_Polinom\Lab4_Polinom\x64\Debug\Lab4_Polinom.exe : fatal error LNK1120: 1 unresolved externals
