@@ -1,0 +1,5 @@
+2024-01-12
+Kruh, 2, 1.20
+Mlijeko, 1, 1.10
+Cokolada, 3, 2.50
+Jabuka, 4, 0.60

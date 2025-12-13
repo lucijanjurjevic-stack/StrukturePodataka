@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A969E7-246C-4261-A387-5AC2C5AC7F6F}|Lab6\\Lab6.vcxproj|C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab6\\Lab6\\Lab6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D9A969E7-246C-4261-A387-5AC2C5AC7F6F}|Lab6\\Lab6.vcxproj|solutionrelative:Lab6\\Lab6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 340,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab6.cpp",
+              "DocumentMoniker": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab6\\Lab6\\Lab6.cpp",
+              "RelativeDocumentMoniker": "Lab6\\Lab6.cpp",
+              "ToolTip": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab6\\Lab6\\Lab6.cpp",
+              "RelativeToolTip": "Lab6\\Lab6.cpp",
+              "ViewState": "AgIAANMAAAAAAAAAAAAAAOEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T18:55:22.677Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 60,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
