@@ -1,0 +1,5 @@
+Nakon funkcije insert:
+30 34 48 56 58 60 63 74 75 80 
+
+Nakon funkcije replace:
+0 0 0 0 0 0 0 0 0 0 
