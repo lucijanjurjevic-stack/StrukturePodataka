@@ -97,7 +97,7 @@ int readCountryFromFile(Position countryNode, char* filename) {
     FILE* f = fopen(filename, "r");
     if (!f) {
       
-        printf("Upozorenje: Datoteka '%s' se ne moze otvoriti.\n", filename);
+        printf("Datoteka %s u ReadFromFile se nemoze otvorit.\n\n", filename);
         return EXIT_FAILURE;
     }
 

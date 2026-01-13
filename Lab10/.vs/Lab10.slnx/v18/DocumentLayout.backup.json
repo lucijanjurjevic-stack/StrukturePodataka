@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\Lab10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab10\\Lab10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\njemacka.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab10\\njemacka.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\hrvatska.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab10\\hrvatska.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\francuska.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab10\\francuska.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\drzave.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab10\\drzave.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\Lab10B.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab10\\Lab10B.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lab10.cpp",
-              "DocumentMoniker": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\Lab10.cpp",
-              "RelativeDocumentMoniker": "Lab10\\Lab10.cpp",
-              "ToolTip": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\Lab10.cpp",
-              "RelativeToolTip": "Lab10\\Lab10.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-23T17:25:58.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "njemacka.txt",
-              "DocumentMoniker": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\njemacka.txt",
-              "RelativeDocumentMoniker": "Lab10\\njemacka.txt",
-              "ToolTip": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\njemacka.txt",
-              "RelativeToolTip": "Lab10\\njemacka.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-13T09:09:29.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "hrvatska.txt",
-              "DocumentMoniker": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\hrvatska.txt",
-              "RelativeDocumentMoniker": "Lab10\\hrvatska.txt",
-              "ToolTip": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\hrvatska.txt",
-              "RelativeToolTip": "Lab10\\hrvatska.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-13T09:09:02.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "francuska.txt",
-              "DocumentMoniker": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\francuska.txt",
-              "RelativeDocumentMoniker": "Lab10\\francuska.txt",
-              "ToolTip": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\francuska.txt",
-              "RelativeToolTip": "Lab10\\francuska.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-13T09:08:36.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "drzave.txt",
-              "DocumentMoniker": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\drzave.txt",
-              "RelativeDocumentMoniker": "Lab10\\drzave.txt",
-              "ToolTip": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\drzave.txt",
-              "RelativeToolTip": "Lab10\\drzave.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-13T09:08:02.907Z",
+              "Title": "Lab10B.c",
+              "DocumentMoniker": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\Lab10B.c",
+              "RelativeDocumentMoniker": "Lab10\\Lab10B.c",
+              "ToolTip": "C:\\Users\\lucij\\Desktop\\StrukturePodataka\\Lab10\\Lab10\\Lab10B.c",
+              "RelativeToolTip": "Lab10\\Lab10B.c",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-13T11:15:13.119Z",
               "EditorCaption": ""
             }
           ]
