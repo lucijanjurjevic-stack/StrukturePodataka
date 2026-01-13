@@ -62,6 +62,7 @@ int main() {
     replace(rootRand);
     printf("\nSumirano stablo:\n");
     inOrder(rootRand, 0);
+
     fprintf(file, "Nakon funkcije replace:\n");
     inOrderToFile(rootRand, file);
     fprintf(file, "\n");

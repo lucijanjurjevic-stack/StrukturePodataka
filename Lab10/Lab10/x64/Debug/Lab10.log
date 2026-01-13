@@ -1,0 +1,81 @@
+﻿  Lab10.cpp
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(25,18): error C2440: 'initializing': cannot convert from 'initializer list' to 'Position'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(25,18):
+      The initializer contains too many elements
+  
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(34,3): error C3861: 'insertCountry': identifier not found
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(41,24): error C3861: 'createCountry': identifier not found
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,22): error C2440: 'initializing': cannot convert from 'Position' to 'Country'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,22):
+      'country::country': no overloaded function could convert all the argument types
+          C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(19,1):
+          could be 'country::country(country &&)'
+              C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,22):
+              'country::country(country &&)': cannot convert argument 1 from 'Position' to 'country &&'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,40):
+                  Reason: cannot convert from 'Position' to 'country'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,40):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(19,1):
+          or       'country::country(const country &)'
+              C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,22):
+              'country::country(const country &)': cannot convert argument 1 from 'Position' to 'const country &'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,40):
+                  Reason: cannot convert from 'Position' to 'const country'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,40):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(48,22):
+          while trying to match the argument list '(Position)'
+  
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(49,7): error C2678: binary '!': no operator found which takes a left-hand operand of type 'Country' (or there is no acceptable conversion)
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(49,7):
+      could be 'built-in C++ operator!(bool)'
+          C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(49,7):
+          '!': cannot convert argument 1 from 'Country' to 'bool'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(49,7):
+      while trying to match the argument list '(Country)'
+  
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(49,6): error C2088: built-in operator '!' cannot be applied to an operand of type 'Country'
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(53,9): error C2819: type 'country' does not have an overloaded member 'operator ->'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(15,16):
+      see declaration of 'country'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(53,9):
+      did you intend to use '.' instead?
+  
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(53,20): error C2232: '->country::name': left operand has 'struct' type, use '.'
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(54,2): error C2819: type 'country' does not have an overloaded member 'operator ->'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(15,16):
+      see declaration of 'country'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(54,2):
+      did you intend to use '.' instead?
+  
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(54,13): error C2232: '->country::next': left operand has 'struct' type, use '.'
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(55,2): error C2819: type 'country' does not have an overloaded member 'operator ->'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(15,16):
+      see declaration of 'country'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(55,2):
+      did you intend to use '.' instead?
+  
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(55,13): error C2232: '->country::root': left operand has 'struct' type, use '.'
+C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10): error C2440: 'return': cannot convert from 'int' to 'country'
+      C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+      'country::country': no overloaded function could convert all the argument types
+          C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(19,1):
+          could be 'country::country(country &&)'
+              C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+              'country::country(country &&)': cannot convert argument 1 from 'int' to 'country &&'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+                  Reason: cannot convert from 'int' to 'country'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(19,1):
+          or       'country::country(const country &)'
+              C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+              'country::country(const country &)': cannot convert argument 1 from 'int' to 'const country &'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+                  Reason: cannot convert from 'int' to 'const country'
+                  C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\Users\lucij\Desktop\StrukturePodataka\Lab10\Lab10\Lab10.cpp(51,10):
+          while trying to match the argument list '(int)'
+  

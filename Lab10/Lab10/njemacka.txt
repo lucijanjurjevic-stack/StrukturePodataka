@@ -1,0 +1,7 @@
+Berlin 3700000
+Hamburg 1840000
+Munchen 1470000
+Koln 1080000
+Frankfurt 750000
+Stuttgart 630000
+Dortmund 580000

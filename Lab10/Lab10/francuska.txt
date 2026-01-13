@@ -1,0 +1,6 @@
+Pariz 2160000
+Marseille 860000
+Lyon 510000
+Toulouse 470000
+Nica 340000
+Nantes 300000
